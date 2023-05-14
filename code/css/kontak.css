@@ -1,0 +1,177 @@
+/* ------------------------- formulir ------------------------- */
+.formulir .container .form,
+.formulir .container .kanan{
+  background: #fff;
+  padding: 2rem 1rem;
+  width: calc(100% / 2);
+  min-height: 500px;
+  box-shadow: 0 4px 16px silver;
+}
+.formulir .container .form input,
+.formulir .container .form textarea{
+  display: block;
+  font-size: 16px;
+  color: #555;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.formulir .container .sub-heading{
+  text-transform: capitalize;
+}
+.formulir .container .form input:focus,
+.formulir .container .form textarea:focus{
+  border: 1px solid var(--biru);
+}
+.formulir .container .form textarea{
+  resize: none;
+  height: 150px;
+}
+.formulir .container .form .btn{
+  background: var(--biru);
+  color: #fff;
+  padding: 16px 3rem;
+  border: 1px solid var(--biru);
+  border-radius: 5rem;
+  box-shadow: 0 2px 16px transparent;
+  transition: ease .25s;
+  
+  display: block;
+  width: 225px;
+  margin: auto;
+}
+.formulir .container .form .btn:hover{
+  box-shadow: 0 2px 16px var(--biru);
+}
+.formulir .container .kanan{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.formulir .container .kanan .alamat{
+  margin: 1rem 0;
+}
+.formulir .container .kanan .alamat a{
+  display: block;
+  margin-bottom: 1rem;
+  color: #555;
+  overflow-wrap: break-word !important;
+}
+.formulir .container .kanan .alamat a:hover{
+  color: var(--biru);
+}
+.formulir .container .kanan .alamat a i{
+  margin-right: 16px;
+  color: var(--biru);
+}
+.formulir .container .kanan .medsos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.formulir .container .kanan .medsos a{
+  color: var(--biru);
+  border: 2px solid var(--biru);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formulir .container .kanan .medsos a:hover{
+  background: var(--biru);
+  color: #fff;
+}
+.formulir .container .kanan .medsos a i{
+  font-size: 24px;
+}
+.formulir .copyright{
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  margin-top: 3rem;
+  text-align: center;
+}
+.formulir .copyright p a{
+  color: #fff;
+  font-weight: bold;
+}
+.formulir .copyright p a:hover{
+  color: #555;
+}
+@media(max-width: 768px){
+  .formulir .container{
+    flex-direction: column-reverse;
+  }
+  .formulir .container .form,
+  .formulir .container .kanan{
+    width: 100%;
+    min-height: max-content;
+  }
+}
+
+/* ------------------------- maps ------------------------- */
+.maps{
+  width: 100%;
+  position: relative;
+  background-image: url(../../img/parallax.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.maps::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--biru);
+  opacity: .75;
+}
+.maps .container .box{
+  width: 100%;
+  height: 100%;
+  padding: 2rem 1rem;
+  background: #fff;
+}
+.maps .container .box h3{
+  text-transform: capitalize;
+}
+.maps .container .box iframe,
+.maps .container .box .domisili{
+  width: 100%;
+  height: 400px;
+}
+.maps .container .box .domisili div{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(0,0,0,25%);
+}
+.maps .container .box .domisili div:first-child{
+  border-top: 1px solid rgba(0,0,0,25%);
+  padding-top: 8px;
+}
+.maps .container .box .domisili div p{
+  padding: 4px 8px;
+  width: 100%;
+}
+.maps .container .box .domisili div p:last-child{
+  text-align: right;
+}
+@media(max-width: 480px){
+  .maps .container .box .domisili div p{
+    padding: 4px 0;
+  }
+}

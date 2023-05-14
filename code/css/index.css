@@ -1,0 +1,408 @@
+/* ------------------------- about ------------------------- */
+.about{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url(../../img/parallax.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.about::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--biru);
+  opacity: .75;
+}
+.about .sub-heading,
+.about .desc{
+  color: #333;
+  position: relative;
+  z-index: 3;
+}
+.about .sub-heading::after{
+  background: #333;
+}
+.about .desc{
+  color: #fff;
+}
+.about .container{
+  position: relative;
+  z-index: 3;
+  color: #fff;
+}
+.about .container .box:first-child img{
+  max-width: 200px;
+  max-height: 200px;
+}
+.about .container .box:last-child h3{
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+.about .container .box:last-child p:last-child{
+  margin-top: 1rem;
+}
+/* ------------------------- service ------------------------- */
+.service .container .box{
+  background: #fff;
+  padding: 2rem 1rem;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: var(--silver-shadow);
+  border-radius: 4px;
+}
+.service .container .box .icon{
+  width: 100px;
+  height: 100px;
+  border: 10px solid var(--biru);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.service .container .box:hover .icon{
+  border: 10px solid lightskyblue;
+  background: var(--biru);
+}
+.service .container .box .icon i{
+  font-size: 2.5rem;
+  transition: all 0.3s ease;
+}
+.service .container .box:hover .icon i{
+  color: #fff;
+}
+
+/* ------------------------- counter ------------------------- */
+.counter{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url(../../img/parallax.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.counter::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--biru);
+  opacity: .75;
+}
+.counter .sub-heading{
+  color: #333;
+}
+.counter .sub-heading:after{
+  background: #333;
+}
+.counter .desc{
+  color: #fff;
+}
+.counter .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+  position: relative;
+  z-index: 3;
+}
+.counter .container .box{
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  color: #fff;
+}
+.counter .container .box div{
+  width: 80px;
+  height: 80px;
+  border: 8px solid ghostwhite;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter .container .box div i{
+  font-size: 32px;  
+}
+.counter .container .box h3{
+  font-size: 32px;
+}
+.counter .container .box p{
+  color: ghostwhite;
+}
+
+/* ------------------------- portfolio ------------------------- */
+.portfolio .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+}
+.portfolio .container .btn{
+  background: #fff;
+  box-shadow: var(--silver-shadow);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+.portfolio .container .btn:hover{
+  background: #555;
+}
+.portfolio div:last-child{
+  margin-top: 3rem;
+  width: 100%;
+}
+.portfolio div:last-child .btn{
+  background: var(--biru);
+  border: 1px solid var(--biru);
+  border-radius: 8px;
+  color: #fff;
+}
+.portfolio div:last-child .btn:hover{
+  box-shadow: 0 2px 16px var(--biru);
+}
+
+/* ------------------------- testi ------------------------- */
+.testi{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url(../../img/parallax.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.testi::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--biru);
+  opacity: .75;
+}
+.testi .sub-heading{
+  color: #333;
+}
+.testi .sub-heading:after{
+  background: #333;
+}
+.testi .desc{
+  color: #fff;
+}
+.testi .container .slideshow{
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  max-width: 768px;
+  width: 100%;
+  max-height: 450px;
+  height: 100%;
+  cursor: grab;
+}
+.testi .container .slideshow:active{
+  cursor: grabbing;
+}
+.testi .container .slideshow .mySlides{
+  text-align: center;
+  padding: 3rem 0;
+}
+.testi .container .slideshow .mySlides .img,
+.testi .container .slideshow .mySlides h3{
+  margin-bottom: 1.5rem;
+}
+.testi .container .slideshow .mySlides .img img{
+  max-width: 100px;
+  max-height: 100px;
+  margin: auto;
+}
+.testi .container .slideshow .mySlides h3{
+  font-size: 24px;
+}
+.testi .container .slideshow .mySlides q{
+  font-style: italic;
+  color: #fff;
+  padding: 0 1rem;
+}
+.testi .container .slideshow .mySlides .quote{
+  display: block;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 32px;
+  color: var(--biru);
+  color: #555;
+  text-align: center;
+  margin: 1.5rem auto 0;
+}
+.testi .container .slideshow .control{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.testi .container .slideshow .control .prev,
+.testi .container .slideshow .control .next{
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 32px;
+  transition: 0.25s ease;
+  opacity: .25;
+}
+.testi .container .slideshow .control .prev:hover,
+.testi .container .slideshow .control .next:hover{
+  opacity: 1;
+}
+.testi .container .slideshow .dots{
+  display: flex;
+  justify-content: center;
+  gap: 0 16px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.testi .container .slideshow .dots .dot{
+  background: #fff;
+  opacity: .25;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: background 0.3s ease-in-out;
+}
+.testi .container .slideshow .dots .dot.active{
+  opacity: 1;
+}
+/* testi Animation */ 
+.BounceInRight{
+  animation-name: BounceInRight;
+  animation-duration: 1s; 
+}
+@keyframes BounceInRight{
+  0%{ 
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  } 
+}
+.BounceInLeft{
+  animation-name: BounceInLeft;
+  animation-duration: 1s; 
+}
+@keyframes BounceInLeft{
+  0%{ 
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  } 
+}
+
+/* ------------------------- harga ------------------------- */
+.harga .container .box .item{
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: var(--silver-shadow)
+}
+.harga .container .box .item .atas{
+  padding: 1rem 1rem 3rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.harga .container .box .item .atas h3{
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.harga .container .box .item .card-body{
+  padding: 3rem 1rem 1rem;
+}
+.harga .container .box .item .card-body{
+  position: relative;
+}
+.harga .container .box .item .card-body .absolute{
+  position: absolute;
+  height: 44px;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 8px whitesmoke;
+}
+.harga .container .box .item .card-body .absolute p{
+  padding: 8px 32px;
+  background: var(--biru);
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.harga .container .box .item .card-body .absolute p span{
+  font-size: 14px;
+  font-weight: normal;
+}
+.harga .container .box .item .card-body ul{
+  margin-bottom: 1rem;
+}
+.harga .container .box .item .card-body ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.harga .container .box .item .card-body ul li:not(:last-child){
+  border-bottom: 1px solid grey;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+.harga .container .box .item .card-body ul li .fa-times{
+  color: red;
+}
+.harga .container .box .item .card-body ul li .fa-check{
+  color: green;
+}
+.harga .container .box .item .card-body .btn{
+  border-radius: 4px;
+  border: 1px solid var(--biru);
+  color: var(--biru);
+  text-align: center;
+  display: block;
+  margin: 2rem auto 1rem;
+  width: max-content;
+}
+.harga .container .box .item .card-body .btn:hover{
+  background: var(--biru);
+  color: #fff;
+}
+.harga .container .box .item .card-body .btn i{
+  margin-right: 8px;
+}
