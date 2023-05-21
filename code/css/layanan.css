@@ -1,0 +1,137 @@
+/* ---------- satu ---------- */
+.satu .container .box{
+	background: #fff;
+	box-shadow: var(--silver-shadow);
+	padding: 1rem;
+	text-align: center;
+}
+.satu .container .box i,
+.satu .container .box h3{
+	margin-bottom: 1rem;
+}
+.satu .container .box:hover i,
+.satu .container .box:hover h3{
+	color: var(--biru);
+}
+.satu .container .box i{
+	font-size: 64px;
+}
+
+/* ---------- dua ---------- */
+.dua::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--biru);
+    opacity: .75;
+}
+.dua{
+	background: url(../../img/parallax.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.dua div:first-child .sub-heading,
+.dua div:first-child .desc{
+	color: #333;
+}
+.dua div:first-child .sub-heading::after{
+	background: #333;
+}
+.dua .container{
+	color: #fff;
+}
+.dua .container .box{
+	padding: 1rem;
+	text-align: center;
+}
+.dua .container .box i{
+	font-size: 64px;
+}
+.dua .container .box i,
+.dua .container .box h3{
+	margin-bottom: 1rem;
+}
+.dua .container .box:hover i,
+.dua .container .box:hover h3{
+	color: #333;
+}
+
+/* ---------- tiga ---------- */
+.tiga .container{
+	text-align: center;
+}
+.tiga .container .box{
+	padding: 1rem;
+	background: #fff;
+	box-shadow: var(--silver-shadow);
+}
+.tiga .container .box i,
+.tiga .container .box h3{
+	margin-bottom: 1rem;
+}
+.tiga .container .box i{
+	font-size: 64px;
+}
+
+/* ---------- empat ---------- */
+.empat::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--biru);
+    opacity: .75;
+}
+.empat{
+	background: url(../../img/parallax.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.empat .container{
+	color: #fff;
+}
+.empat .container .box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem 0;
+}
+.empat .container .box h3{
+	font-size: 28px;
+}
+.empat .container .box .btn{
+	border: 1px solid #fff;
+	background: #fff;
+	color: var(--biru);
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.empat .container .box .btn:hover{
+	background: #333;
+	color: #fff;
+	border: 1px solid #333;
+}
+.empat .container .box .btn i{
+	margin-left: 8px;
+}
+@media(max-width: 480px){
+	.empat .container .box{
+		flex-direction: column;
+	}
+	.empat .container .box h3{
+		text-align: center;
+	}
+}
