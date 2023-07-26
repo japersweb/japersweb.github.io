@@ -1,0 +1,28 @@
+<h1>Pertanyaan yang Sering Diajukan (FAQ)</h1>
+  <p>Selamat datang di halaman Pertanyaan yang Sering Diajukan (FAQ) Japersweb! Berikut adalah jawaban untuk beberapa pertanyaan umum yang sering diajukan oleh pelanggan kami:</p>
+
+  <h2>Apa metode pembayaran yang dapat saya gunakan?</h2>
+  <p>Kami menerima pembayaran menggunakan berbagai metode, termasuk:</p>
+  <ul>
+    <li>Bank Transfer (Bank Mandiri, Bank BRI)</li>
+    <li>E-wallet (DANA, DOKU, LinkAja, OVO, Seabank, GoPay)</li>
+  </ul>
+
+  <h2>Apakah produk di Japersweb memiliki garansi?</h2>
+  <p>Iya, kami memberikan garansi untuk produk-produk yang kami jual. Garansi berlaku sesuai dengan ketentuan dari masing-masing produsen dan produk tertentu. Pastikan untuk membaca informasi garansi pada halaman produk untuk detail lebih lanjut.</p>
+
+  <h2>Bagaimana cara melakukan pengembalian produk?</h2>
+  <p>Jika Anda ingin melakukan pengembalian produk, silakan hubungi tim dukungan kami melalui halaman "Pengaduan" atau melalui alamat email yang tercantum di bagian kontak. Tim kami akan membantu Anda dengan proses pengembalian dan memberikan petunjuk lebih lanjut.</p>
+
+  <h2>Berapa lama waktu pengiriman pesanan?</h2>
+  <p>Waktu pengiriman pesanan tergantung pada lokasi pengiriman dan metode pengiriman yang Anda pilih. Sebagian besar pesanan diproses dan dikirim dalam 1-2 hari kerja. Anda dapat melacak status pengiriman melalui informasi yang kami berikan setelah pesanan dikirimkan.</p>
+
+  <h2>Apakah ada biaya tambahan untuk pengiriman?</h2>
+  <p>Biaya pengiriman dapat bervariasi tergantung pada lokasi pengiriman, berat produk, dan metode pengiriman yang Anda pilih. Detail biaya pengiriman akan ditampilkan saat proses checkout sebelum Anda melakukan pembayaran.</p>
+
+  <p>Jika pertanyaan Anda tidak terjawab di sini, jangan ragu untuk menghubungi tim dukungan kami melalui halaman "Pengaduan" atau melalui alamat email yang tercantum di bagian kontak. Kami senang membantu Anda dengan pertanyaan atau kebutuhan lainnya.</p>
+
+  <p>Terima kasih telah memilih Japersweb sebagai mitra belanja Anda. Kami berharap Anda memiliki pengalaman berbelanja yang menyenangkan di situs kami!</p>
+
+  <p>Salam,</p>
+  <p>Tim Japersweb</p>

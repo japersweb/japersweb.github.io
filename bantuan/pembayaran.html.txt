@@ -1,0 +1,27 @@
+<h1>Halaman Pembayaran Japersweb</h1>
+  <p>Selamat datang di Halaman Pembayaran Japersweb! Untuk memudahkan transaksi Anda, kami menyediakan berbagai pilihan alat pembayaran yang dapat Anda gunakan. Silakan pilih salah satu dari berikut:</p>
+
+  <h2>Bank</h2>
+  <ul>
+    <li>Bank Mandiri</li>
+    <li>Bank BRI</li>
+  </ul>
+
+  <h2>E-wallet</h2>
+  <ul>
+    <li>DANA</li>
+    <li>DOKU</li>
+    <li>LinkAja</li>
+    <li>OVO</li>
+    <li>Seabank</li>
+    <li>GoPay</li>
+  </ul>
+
+  <p>Pastikan untuk melakukan pembayaran sesuai dengan instruksi yang diberikan saat proses checkout. Setelah Anda melakukan pembayaran, sistem kami akan memverifikasi transaksi Anda dan mengirimkan konfirmasi pembayaran ke alamat email yang Anda berikan.</p>
+
+  <p>Jika Anda mengalami masalah atau membutuhkan bantuan terkait pembayaran, jangan ragu untuk menghubungi tim dukungan kami. Kami akan dengan senang hati membantu Anda dalam proses pembayaran.</p>
+
+  <p>Terima kasih telah memilih Japersweb sebagai mitra transaksi Anda. Semoga pengalaman berbelanja di situs kami menyenangkan!</p>
+
+  <p>Salam,</p>
+  <p>Tim Japersweb</p>

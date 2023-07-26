@@ -1,0 +1,20 @@
+<h1>Promo Spesial di Japersweb!</h1>
+  <p>Selamat datang di Halaman Promo Japersweb! Kami senang dapat memberikan penawaran khusus kepada Anda. Manfaatkan kesempatan ini untuk mendapatkan produk berkualitas dengan harga terbaik. Berikut adalah promo-promo menarik yang sedang berlangsung:</p>
+
+  <h2>Promo Diskon 20% untuk Semua Produk!</h2>
+  <p>Dapatkan diskon 20% untuk semua produk di Japersweb. Promo ini berlaku untuk pembelian dalam periode tertentu, jadi segera manfaatkan kesempatan ini sebelum kehabisan!</p>
+
+  <h2>Gratis Ongkos Kirim ke Seluruh Indonesia!</h2>
+  <p>Nikmati pengiriman gratis untuk semua pesanan Anda, tanpa minimum pembelian. Promo ini berlaku untuk seluruh wilayah Indonesia dan untuk semua produk di situs kami.</p>
+
+  <h2>Promo Bundle Hemat!</h2>
+  <p>Dapatkan penawaran bundle hemat untuk produk-produk pilihan. Dengan membeli beberapa produk sekaligus, Anda akan mendapatkan harga khusus yang lebih murah dibandingkan membeli produk tersebut secara terpisah.</p>
+
+  <p>Jangan lewatkan kesempatan emas ini untuk berbelanja dengan harga istimewa. Promo ini terbatas, jadi segera lakukan pembelian sekarang juga!</p>
+
+  <p>Catat tanggalnya dan kunjungi situs kami secara berkala untuk mendapatkan informasi tentang promo-promo menarik lainnya. Kami berkomitmen untuk terus memberikan penawaran khusus kepada pelanggan setia kami.</p>
+
+  <p>Terima kasih atas dukungan Anda dan selamat berbelanja di Japersweb!</p>
+
+  <p>Salam,</p>
+  <p>Tim Japersweb</p>

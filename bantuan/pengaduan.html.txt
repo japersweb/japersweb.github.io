@@ -1,0 +1,26 @@
+<h1>Halaman Pengaduan Japersweb</h1>
+  <p>Selamat datang di Halaman Pengaduan Japersweb! Kami sangat peduli dengan pengalaman pengguna dan berkomitmen untuk memberikan pelayanan terbaik. Jika Anda memiliki keluhan, masalah, atau saran terkait layanan kami, silakan gunakan halaman ini untuk menghubungi kami. Tim kami akan dengan senang hati membantu dan merespons setiap pengaduan Anda dengan cepat.</p>
+
+  <h2>Mengapa Menggunakan Halaman Pengaduan Japersweb?</h2>
+  <ol>
+    <li>Transparansi: Kami percaya bahwa mendengar dari pengguna kami adalah cara terbaik untuk terus meningkatkan layanan kami. Pengaduan yang Anda berikan memainkan peran penting dalam proses perbaikan dan peningkatan yang berkelanjutan.</li>
+    <li>Privasi Terjaga: Setiap pengaduan yang Anda sampaikan akan diperlakukan dengan kerahasiaan dan rahasia. Kami menghargai privasi setiap pengguna kami dan menjamin informasi pribadi Anda aman.</li>
+    <li>Perhatian Penuh: Tim pengaduan kami akan mengkaji setiap pesan yang masuk dengan cermat. Kami berkomitmen untuk menangani setiap masalah dengan serius dan mencari solusi yang tepat untuk setiap kasus.</li>
+  </ol>
+
+  <h2>Cara Mengajukan Pengaduan:</h2>
+  <ol>
+    <li>Isi Formulir: Di halaman ini, Anda akan menemukan formulir pengaduan yang sederhana dan mudah diisi. Mohon untuk mengisi informasi kontak Anda yang akurat agar kami dapat menghubungi Anda kembali.</li>
+    <li>Deskripsikan Masalah: Mohon jelaskan masalah atau keluhan Anda secara rinci. Semakin lengkap dan jelas deskripsi yang Anda berikan, semakin mudah bagi kami untuk memahami situasinya dan memberikan tanggapan yang relevan.</li>
+    <li>Tunggu Tanggapan Kami: Setelah mengirimkan pengaduan, tim kami akan segera meninjau isu yang Anda laporkan. Kami akan berusaha untuk merespons dengan cepat, namun, dalam beberapa kasus yang lebih kompleks, mungkin dibutuhkan waktu tambahan.</li>
+    <li>Komunikasi Lanjutan: Jika diperlukan, tim kami mungkin menghubungi Anda untuk meminta informasi tambahan atau memberikan pembaruan terkait pengaduan Anda.</li>
+  </ol>
+
+  <p>Terima kasih atas partisipasi Anda dalam meningkatkan layanan kami. Pengalaman dan pandangan Anda sangat berarti bagi kami. Dengan bantuan Anda, kami dapat terus tumbuh dan menyediakan platform yang lebih baik untuk semua pengguna Japersweb.</p>
+
+  <p>Catatan: Halaman ini khusus untuk pengaduan terkait layanan Japersweb. Jika Anda membutuhkan bantuan teknis atau memiliki pertanyaan lainnya, silakan kunjungi halaman dukungan atau FAQ kami.</p>
+
+  <p>Kami berharap agar Anda memiliki pengalaman positif saat menggunakan Japersweb. Terima kasih atas kunjungan Anda dan kepercayaan Anda kepada kami.</p>
+
+  <p>Salam,</p>
+  <p>Tim Japersweb</p>
